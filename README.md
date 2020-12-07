@@ -11,10 +11,11 @@ As of December 4, the United States has the highest number of reported total cas
 •May 4- “Phase 1” reopening begins with updates on May 11, 14, and 15\
 •June 5- “Phase 2” reopening begins, except Miami-Dade, Broward, and Palm Beach counties\
 •September 25- “Phase 3” reopening begins for all Florida counties\
-•December 1- Florida surpasses 1 million reported COVID-19 cases since the start of the pandemic\
+•December 1- Florida surpasses 1 million reported COVID-19 cases since the start of the pandemic
 
 **METHODOLOGY**\
-When working with datasets containing hundreds of thousands of records, it is no longer practical to utilize Excel for data analyses. Python serves as a popular language amongst data scientists because it comes with many powerful libraries for data processing and modeling (Pandas, NumPy, SciPy) and data visualization (Matplotlib and Seaborn), just to name a few.\ For this project, all Python code was run in Jupyter Notebook and the imported Python libraries were Pandas and Matplotlib). 
+When working with datasets containing hundreds of thousands of records, it is no longer practical to utilize Excel for data analyses. Python serves as a popular language amongst data scientists because it comes with many powerful libraries for data processing and modeling (Pandas, NumPy, SciPy) and data visualization (Matplotlib and Seaborn), just to name a few.
+For this project, all Python code was run in Jupyter Notebook and the imported Python libraries were Pandas and Matplotlib). 
 
 **DATA SET**\
 Each day the Florida Department of Health publishes an updated comma-separated values (CSV) file containing records of all the COVID-19 cases. The data is available to the public for download on https://open-fdoh.hub.arcgis.com/datasets/florida-covid19-case-line-data
