@@ -1,7 +1,7 @@
 # COVID-19_Florida
 **BACKGROUND**\
 COVID-19 is a highly contagious, respiratory illness caused by severe acute respiratory syndrome coronavirus 2 (SARS-Cov-2). The coronavirus was first identified in Wuhan, China in December 2019. On March 11, the World Health Organization (WHO) declared COVID-19 a global pandemic. The main transmission route of the virus is through person-to-person contact. Infected individuals have reported experiencing a wide range of symptoms ranging from mild to severe illness. To prevent the spread of the virus, public health guidance includes washing hands often, wearing a mask in public, avoiding close contact, cleaning and disinfecting potential contaminated surfaces, and monitoring your health daily. 
-As of December 4, the United States has the highest number of reported total cases (14.6 million) and total deaths (over 284 thousand) followed by India and Brazil. More specifically, Texas, California, and Florida have each surpassed one million total cases.
+As of March 1, the United States has the highest number of reported total cases (29+ million) and total deaths (over 525K) followed by India and Brazil.
 
 **FLORIDA TIMELINE**\
 •March 1- Governor DeSantis declares a public health emergency\
@@ -15,11 +15,11 @@ As of December 4, the United States has the highest number of reported total cas
 
 **METHODOLOGY**\
 When working with datasets containing hundreds of thousands of records, it is no longer practical to utilize Excel for data analyses. Python serves as a popular language amongst data scientists because it comes with many powerful libraries for data processing and modeling (Pandas, NumPy, SciPy) and data visualization (Matplotlib and Seaborn), just to name a few.
-For this project, all Python code was run in Jupyter Notebook and the imported Python libraries were Pandas and Matplotlib). 
+For this project, all Python code was run in Jupyter Notebook and the imported Python libraries were Pandas, Numpy, and Matplotlib. 
 
 **DATA SET**\
 Each day the Florida Department of Health publishes an updated comma-separated values (CSV) file containing records of all the COVID-19 cases. The data is available to the public for download on https://open-fdoh.hub.arcgis.com/datasets/florida-covid19-case-line-data
-The main attributes of the data set are County, Age, Age_group, Gender, Jurisdiction, Travel_related, Origin, Hospitalized (status), Died (status), and Case1 (date).
+The main attributes of the data set are County, Age, Age_group, Gender, Jurisdiction, Travel_related, Origin, EDvisit, Hospitalized, Died, Contact, and Case1 (date).
 
 **OBJECTIVES**\
 •To leverage Python’s libraries for data analysis purposes\
